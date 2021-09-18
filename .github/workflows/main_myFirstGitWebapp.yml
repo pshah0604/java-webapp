@@ -50,4 +50,4 @@ jobs:
         app-name: 'myFirstGitWebapp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_5da4d8bb664a4e96bfad57df40248a05 }}
-        package: '*.jar'
+        package: '*.war'
